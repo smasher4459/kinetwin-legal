@@ -41,7 +41,7 @@ Apple runs TestFlight. Through it I also see your name and email address, your u
 - **Delete my data**: removes everything stored under your donor ID and gives you a new random ID. **You stay in the beta and later clips are uploaded again.**
 - **Leave the beta**: withdraws your consent at once, stops uploads, locks the app and deletes your data. If you are offline, the consent is still withdrawn and the app retries the deletion each time you open it.
 - **Your donor ID** is shown in Beta settings. Keep it if you want to ask me for a copy of your data.
-- You can also email {{CONTACT_EMAIL}}, or complain to the Autoriteit Persoonsgegevens (https://autoriteitpersoonsgegevens.nl).
+- You can also email kinetwin@proton.me, or complain to the Autoriteit Persoonsgegevens (https://autoriteitpersoonsgegevens.nl).
 
 A model already trained or tuned with your data is not retrained when you delete (notice, section 8); data you delete drops out of all later training.
 

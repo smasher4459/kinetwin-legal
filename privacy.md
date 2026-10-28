@@ -27,7 +27,7 @@ Earlier versions stay available at the same address. In this notice "I" and "me"
 | | |
 |---|---|
 | Controller | Simon Pastoor, an individual developer in the Netherlands |
-| Contact for anything in this notice | {{CONTACT_EMAIL}} (you may write in English or Dutch) |
+| Contact for anything in this notice | kinetwin@proton.me (you may write in English or Dutch) |
 | Data protection officer | None. Not required at this scale (GDPR Art. 37). |
 | Supervisory authority | Autoriteit Persoonsgegevens (AP), the Dutch data protection authority |
 
@@ -65,6 +65,7 @@ After you finish with a clip, the app uploads these files. They are the only fil
 - region only (for example NL), not your full language setting;
 - where the clip came from in the app (Photos or Files);
 - video format: codec, size, frame rate, duration and rotation;
+- the camera lens and its focal length, if your video file records them (never location or date);
 - the height you typed, and where it came from;
 - the Vision request revision and, per refusal reason, how many frames the pose analysis refused;
 - the analysis time;
@@ -101,7 +102,7 @@ Contacts, advertising ID, precise location, and the sound of your video. The app
 
 ### 4.8 Other people in your video
 
-I do not look for other people in the clips and cannot tell who they are. Please film only yourself and keep other people out of the picture. If you appear in someone else's clip, write to me at {{CONTACT_EMAIL}} and I will look for it and delete it.
+I do not look for other people in the clips and cannot tell who they are. Please film only yourself and keep other people out of the picture. If you appear in someone else's clip, write to me at kinetwin@proton.me and I will look for it and delete it.
 
 ## 5. Why I use your data, and the legal basis
 
@@ -135,7 +136,7 @@ No one else gets your data.
 
 Your files are stored in a Cloudflare R2 storage area that is private and has EU jurisdiction. There are no public links. Video goes straight from your phone to that storage over HTTPS. It never passes through the Worker. The Cloudflare account that holds it is protected with two-factor authentication.
 
-The Worker sees the donor ID, the token, the list of files (names, sizes and checksums), the consent version and time, the app version and your IP address, but never the video. It runs on Cloudflare's global network and may be handled outside the EU. The EU guarantee covers where objects are stored, not where the Worker runs. Cloudflare, Inc. is a US company. Transfers to it rest on the EU-US Data Privacy Framework, in which Cloudflare, Inc. is listed, and on the Standard Contractual Clauses that are part of Cloudflare's data processing agreement. You can ask me for a copy of the agreement at {{CONTACT_EMAIL}}.
+The Worker sees the donor ID, the token, the list of files (names, sizes and checksums), the consent version and time, the app version and your IP address, but never the video. It runs on Cloudflare's global network and may be handled outside the EU. The EU guarantee covers where objects are stored, not where the Worker runs. Cloudflare, Inc. is a US company. Transfers to it rest on the EU-US Data Privacy Framework, in which Cloudflare, Inc. is listed, and on the Standard Contractual Clauses that are part of Cloudflare's data processing agreement. You can ask me for a copy of the agreement at kinetwin@proton.me.
 
 Files are encrypted in transit (HTTPS/TLS) and at rest (AES-256, managed by Cloudflare). Upload links work for 15 minutes, for one file each. Read access to the files is limited to me, through a read-only key, and to the upload service (the Worker), which holds a read-and-write key but only checks file sizes and types.
 
@@ -166,8 +167,8 @@ I answer within one month (Art. 12(3)). If your request is complicated I may ext
 |---|---|
 | Delete your data (Art. 17) | In the app: **Beta settings > Delete my data**. It removes everything stored under your donor ID and gives you a new random ID. **You stay in the beta, and later clips are uploaded again.** To stop uploads, use Leave the beta. |
 | Withdraw consent (Art. 7(3)) | In the app: **Beta settings > Leave the beta**. It withdraws both consents on the spot, stops uploads, removes clips still waiting on your phone, locks the app and then deletes your data. If you are offline when you tap it, the consent is still withdrawn and the app retries the deletion each time you open it until the server confirms. Processing before withdrawal stays lawful. |
-| Access and a copy (Arts. 15, 20) | Email {{CONTACT_EMAIL}}. There is no in-app export, so I prepare the copy by hand. Give me your donor ID, which the app shows in Beta settings. |
-| Correct, restrict or object (Arts. 16, 18, 21) | Email {{CONTACT_EMAIL}}. An upload cannot be edited: delete it and, if you wish, donate again. You may object to the IP-address rate limiting and to the tester-list processing. |
+| Access and a copy (Arts. 15, 20) | Email kinetwin@proton.me. There is no in-app export, so I prepare the copy by hand. Give me your donor ID, which the app shows in Beta settings. |
+| Correct, restrict or object (Arts. 16, 18, 21) | Email kinetwin@proton.me. An upload cannot be edited: delete it and, if you wish, donate again. You may object to the IP-address rate limiting and to the tester-list processing. |
 | Complain | To the Autoriteit Persoonsgegevens (https://autoriteitpersoonsgegevens.nl), or to the authority where you live or work. You are welcome to tell me first. |
 
 **How I check that a request is yours.** A donor ID is not a secret. So, for access requests and for requests by email, send me the donor ID plus two things only the owner would know, for example your device model and the approximate date and length of one clip. I match them against the files. I send the copy as an encrypted download link to the address you wrote from, and give you the password separately.

@@ -17,7 +17,7 @@ The sources are in the private workspace at `~/formlab/_master/legal/beta/`. To 
 
 ## The `{{CONTACT_EMAIL}}` placeholder
 
-`{{CONTACT_EMAIL}}` stands for the new dedicated contact address, which does not exist yet. It appears in `index.md`, `privacy.md` and `beta.md`.
+`{{CONTACT_EMAIL}}` stood for the dedicated contact address. On 2026-10-28 it was replaced everywhere with kinetwin@proton.me (decision 1); this section is kept for history. It appears in `index.md`, `privacy.md` and `beta.md`.
 
 Replace it in those three files before publishing, and use the same address as the TestFlight Feedback Email. Do not publish with it still in place: Jekyll reads `{{ ... }}` as a Liquid variable and renders an unknown one as an empty string, so the live page would silently have no contact address.
 
