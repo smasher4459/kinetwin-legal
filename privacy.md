@@ -153,7 +153,7 @@ If a data breach puts your rights at high risk, I will tell you through the emai
 | Copy on your phone | Until it is uploaded. A copy that is waiting is removed when you delete your data or leave the beta. |
 | My working copies of your files | Kept only on one encrypted volume on my computer that is excluded from cloud sync and backups. Before each use I compare it with the storage and delete anything that is no longer there. Everything is gone at 730 days at the latest. |
 | TestFlight feedback and crash reports | Deleted once answered, and at the latest 12 months after I receive them. |
-| TestFlight tester list (name and email) | While you are a tester. I remove you when you leave the beta or the beta ends. |
+| TestFlight tester list (name and email) | While you are a tester. I remove you when you email me that you are leaving, or when the beta ends. Leaving in the app does not tell me. You can also stop testing yourself in the TestFlight app. |
 | Cloudflare's own connection data | Under Cloudflare's own privacy policy. |
 | Trained or tuned models | See below. |
 
@@ -166,7 +166,7 @@ I answer within one month (Art. 12(3)). If your request is complicated I may ext
 | Right | How |
 |---|---|
 | Delete your data (Art. 17) | In the app: **Beta settings > Delete my data**. It removes everything stored under your donor ID and gives you a new random ID. **You stay in the beta, and later clips are uploaded again.** To stop uploads, use Leave the beta. |
-| Withdraw consent (Art. 7(3)) | In the app: **Beta settings > Leave the beta**. It withdraws both consents on the spot, stops uploads, removes clips still waiting on your phone, locks the app and then deletes your data. If you are offline when you tap it, the consent is still withdrawn and the app retries the deletion each time you open it until the server confirms. Processing before withdrawal stays lawful. |
+| Withdraw consent (Art. 7(3)) | In the app: **Beta settings > Leave the beta**. It withdraws both consents on the spot, stops uploads, removes clips still waiting on your phone, locks the app and then deletes your data. If you are offline when you tap it, the consent is still withdrawn and the app retries the deletion each time you open it until the server confirms. **Keep Kinetwin installed until the deletion screen disappears;** if you delete the app first, the retry is lost. Leaving in the app does not tell me and does not remove you from TestFlight: email me, or stop testing in the TestFlight app. Processing before withdrawal stays lawful. |
 | Access and a copy (Arts. 15, 20) | Email kinetwin@proton.me. There is no in-app export, so I prepare the copy by hand. Give me your donor ID, which the app shows in Beta settings. |
 | Correct, restrict or object (Arts. 16, 18, 21) | Email kinetwin@proton.me. An upload cannot be edited: delete it and, if you wish, donate again. You may object to the IP-address rate limiting and to the tester-list processing. |
 | Complain | To the Autoriteit Persoonsgegevens (https://autoriteitpersoonsgegevens.nl), or to the authority where you live or work. You are welcome to tell me first. |

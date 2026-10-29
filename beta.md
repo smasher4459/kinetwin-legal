@@ -39,7 +39,7 @@ Apple runs TestFlight. Through it I also see your name and email address, your u
 ## Your choices, any time, in Beta settings
 
 - **Delete my data**: removes everything stored under your donor ID and gives you a new random ID. **You stay in the beta and later clips are uploaded again.**
-- **Leave the beta**: withdraws your consent at once, stops uploads, locks the app and deletes your data. If you are offline, the consent is still withdrawn and the app retries the deletion each time you open it.
+- **Leave the beta**: withdraws your consent at once, stops uploads, locks the app and deletes your data. If you are offline, the consent is still withdrawn and the app retries the deletion each time you open it. Keep Kinetwin installed until the deletion screen disappears. Leaving in the app does not remove you from TestFlight: email me, or stop testing in the TestFlight app.
 - **Your donor ID** is shown in Beta settings. Keep it if you want to ask me for a copy of your data.
 - You can also email kinetwin@proton.me, or complain to the Autoriteit Persoonsgegevens (https://autoriteitpersoonsgegevens.nl).
 
