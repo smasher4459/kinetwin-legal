@@ -65,7 +65,7 @@ After you finish with a clip, the app uploads these files. They are the only fil
 - region only (for example NL), not your full language setting;
 - where the clip came from in the app (Photos or Files);
 - video format: codec, size, frame rate, duration and rotation;
-- the camera lens and its focal length, if your video file records them (never location or date);
+- the camera lens name (which can include your phone model) and its focal length, if your video file records them (never location or date);
 - the height you typed, and where it came from;
 - the Vision request revision and, per refusal reason, how many frames the pose analysis refused;
 - the analysis time;
