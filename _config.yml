@@ -3,14 +3,13 @@
 # no tracking or statistics keys, no comment system, no social or contact keys,
 # no extra plugins, no custom scripts, no externally hosted fonts.
 title: Kinetwin legal
-description: Privacy notice and participant information for the Kinetwin TestFlight beta
+description: Privacy notice for the Kinetwin TestFlight beta
 lang: en
 url: "https://smasher4459.github.io"
 baseurl: "/kinetwin-legal"
 theme: minima
 header_pages:
   - privacy.md
-  - beta.md
 # The README is a maintainer note, not a page of the site.
 exclude:
   - README.md
