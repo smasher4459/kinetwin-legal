@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Kinetwin beta participant information
-description: Participant information for the Kinetwin TestFlight beta (version beta-sheet-v4).
+description: Participant information for the Kinetwin TestFlight beta (version beta-sheet-v5).
 permalink: /beta/
 ---
 
 # Kinetwin beta: participant information
 
-Version `beta-sheet-v4` · 5 November 2026 · matches privacy notice `beta-notice-v4` of 4 November 2026 · consent versions `kinetwin-beta-consent-3` (the consent screen in the app) and `kinetwin-participant-consent-2` (my consent email) · for invited adults (18+)
+Version `beta-sheet-v5` · 5 November 2026 · matches privacy notice `beta-notice-v5` of 5 November 2026 · consent versions `kinetwin-beta-consent-3` (the consent screen in the app), `kinetwin-participant-consent-2` (my consent email) and `kinetwin-beta-cloud-training-addon-2` (my cloud and training email) · for invited adults (18+)
 
 Published at https://smasher4459.github.io/kinetwin-legal/beta/
 
@@ -23,7 +23,7 @@ The beta is in English only. Join only if you read English comfortably.
 
 ## Risk and benefit
 
-- **Risk:** the video can show your face and body, so a donated clip can identify you even without your name, and a model trained with your data cannot unlearn it. If you also agree in writing to the AI services (below), the companies you choose receive your data under their own terms.
+- **Risk:** the video can show your face and body, so a donated clip can identify you even without your name, and a model trained with your data (only if you agree to training by email) may keep traces of it. If you also agree in writing to the AI services (below), the companies you choose receive your data under their own terms.
 - **Benefit:** none for you. You are not paid and get no reward, and Kinetwin works fully without donating. It helps me improve Kinetwin, which is planned as a commercial app.
 
 ## What is uploaded
@@ -45,7 +45,7 @@ Unless you agree in writing to more (next section), only I use your files. They 
 
 The files are deleted automatically after about 730 days (24 months) at the latest, or earlier when you delete them in the app. 730 days is my own judgement: developing Kinetwin's models and checking them across app versions needs comparison data over about two years. It is a maximum, not a target (section 8).
 
-I use them to improve Kinetwin's pose accuracy and the app, including training and testing models, and for research on lifting technique. I do not sell them or use them for advertising. I give them to nobody for their own use, except the services you agree to in writing (section 5). Unless you agree in writing, I process them only with tools that run on my own computer, and I never send a clip, a frame or anything made from them to an AI service, a cloud-based tool or any other third party (section 6). You are not paid for taking part.
+I use them to improve Kinetwin's pose accuracy and the app, including testing models, and for research on lifting technique. I train models on your clips only if you agree by email (below). I do not sell them or use them for advertising. I give them to nobody for their own use, except the services you agree to in writing (section 5). Unless you agree in writing, I process them only with tools that run on my own computer, and I never send a clip, a frame or anything made from them to an AI service, a cloud-based tool or any other third party (section 6). You are not paid for taking part.
 
 Apple runs TestFlight. Through it I also see your name and email address, which build you installed, your usage such as sessions and crashes, and any feedback you send, whether or not you donate (section 4.5). I delete feedback and crash reports once answered, and at the latest 12 months after I receive them (section 8).
 
@@ -68,6 +68,15 @@ Nothing in this section happens unless you agree in writing. The app does not as
 
 The consent screen in the app (quoted below, and fixed) says your data is "not shared with anyone for their own use" and that "Everything is deleted automatically after about 24 months (730 days)". If you answer YES by email, the services you chose do receive your data, as their own controllers, and your copies in Google Drive and with those services follow "How long" above instead. Your files in the Cloudflare storage still follow the 730 days (sections 5, 6, 8).
 
+## Google Cloud and model training: only with your written YES
+
+Nothing in this section happens unless you agree in writing. The app does not ask you this (section 11).
+
+- **How I ask.** By email (`kinetwin-beta-cloud-training-addon-2`), with two separate boxes. Box C1: may I store your donated clips and the data Kinetwin makes from them on Google Cloud servers in the EU (Netherlands) and run the analysis there? Box C2: may I use them to train and test Kinetwin's own AI models, which are built into the app on users' phones? A box you do not answer YES is a no; if you do not reply, nothing changes (sections 1, 5).
+- **Who and where.** Google Cloud EMEA Limited (Ireland) works for me under a data processing agreement and may use your data only on my instructions. Your data is stored in europe-west4 (Netherlands). Before any other cloud company receives your data, I email you and use it only if you reply YES (sections 6, 7).
+- **How long.** Copies on Google Cloud and training sets are deleted at the latest about 730 days after the original upload. Models already trained with your clips can stay in use after that; if you withdraw Box C2, section 8 says what happens to them (section 8).
+- **Withdraw** either box on its own by email. It stops only that use; your donation stays until you delete it in the app or it expires. **Leave the beta** and **Delete my data** do not reach Google Cloud or my training sets: email me as well (section 9).
+
 ## Your choices, any time, in Beta settings
 
 - **Stop donating**: stops uploads and removes clips still waiting on your phone. It keeps what you already uploaded and does not withdraw your consent for those clips; they stay until you delete them or they expire.
@@ -78,7 +87,7 @@ The consent screen in the app (quoted below, and fixed) says your data is "not s
 - **Your donor ID** is shown in Beta settings. Keep it if you want to ask me for a copy of your data. There is no export in the app, so I prepare the copy by hand. A donor ID is not a secret, so for requests by email I also ask for two things only you would know, for example your device model and the approximate date and length of one clip (section 9).
 - You can also email kinetwin@proton.me to ask for a copy, a correction or a restriction, or to object. I answer within one month, and requests are free. You can complain to the Autoriteit Persoonsgegevens (https://autoriteitpersoonsgegevens.nl) or to the authority where you live or work (section 9).
 
-A model already trained or tuned with your data is not retrained when you delete; data you delete drops out of all later training. No model is trained on donated clips until a written model assessment exists (section 8).
+No model is trained on your clips unless you answer YES to Box C2 of my cloud and training email, and I test each recipe in writing before it is used on donated clips. Data you delete drops out of all later training; for models already trained, section 8 says what happens.
 
 Delete before you uninstall. If you delete the app without deleting your data, your files stay until they expire after about 730 days, and I may not be able to tell which are yours. A TestFlight build also stops opening after at most 90 days; after that, email me at kinetwin@proton.me to use any of these choices (section 9).
 
