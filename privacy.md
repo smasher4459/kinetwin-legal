@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Kinetwin beta privacy notice
-description: Privacy notice for the Kinetwin TestFlight beta (version beta-notice-v6).
+description: Privacy notice for the Kinetwin TestFlight beta (version beta-notice-v6.1).
 permalink: /privacy/
 ---
 
 # Kinetwin beta: privacy notice
 
-Version `beta-notice-v6` · 7 November 2026 · applies to consent version `kinetwin-beta-consent-3`, to the consent email `kinetwin-participant-consent-2` and to the cloud and training emails `kinetwin-beta-cloud-training-addon-2` (app donors) and `kinetwin-participant-cloud-training-addon-2` (people I filmed on my phone), to the filming email `kinetwin-filmed-person-consent-1`, and to my emails asking about the rebuild test and a move to a company · covers the Kinetwin TestFlight beta only, including people I filmed on my phone for it
+Version `beta-notice-v6.1` · 16 November 2026 · applies to consent version `kinetwin-beta-consent-3`, to the consent email `kinetwin-participant-consent-2` and to the cloud and training emails `kinetwin-beta-cloud-training-addon-2` (app donors) and `kinetwin-participant-cloud-training-addon-2` (people I filmed on my phone), to the filming email `kinetwin-filmed-person-consent-1`, and to my emails asking about the rebuild test and a move to a company · covers the Kinetwin TestFlight beta only, including people I filmed on my phone for it
 
 Published at https://smasher4459.github.io/kinetwin-legal/privacy/
 
@@ -19,6 +19,7 @@ Earlier versions stay available in the history of the website's source at https:
 - Separately, because I invited you through TestFlight, I see your name, email address and any feedback you send, whether or not you donate (section 4.5).
 - **If I filmed you on my phone, or filmed you in person after asking,** and you do not use the app, section 3 says which parts of this notice apply to you.
 - What goes up, only for a clip you donate: your video (with the sound and the hidden information inside the video file removed), the body pose, 3D twin and measurements Kinetwin made from it, and some technical details about your phone and the video. If you add them, also your known 1RM, the weight of a set and a bar-velocity file.
+- **Set history is off unless you turn it on.** If you do, Kinetwin keeps your sets on your phone only; they are never uploaded (section 4.9).
 - Your video can show your face and body. Anything stored under a random donor ID can still be about you, so it is **pseudonymised, not anonymous**.
 - Only I can use it, unless you agree in writing to more (two points down). I use it to improve Kinetwin and for research on lifting technique. I do not sell it, I do not show you ads, and the app contains no advertising or tracking code.
 - Files are stored in a private storage area in the EU at Cloudflare, my service provider. They are deleted automatically after about 730 days (24 months), or earlier when you delete them in the app. The reason for 730 days is in section 8.
@@ -42,7 +43,7 @@ This notice covers the data the Kinetwin beta uploads when you choose to donate 
 - **Apple and TestFlight.** Apple runs TestFlight. Apple handles your invitation, your installs and its own crash and usage reports under Apple's own privacy policy (https://www.apple.com/legal/privacy/). Section 4.5 says what Apple passes on to me.
 - **A later public Kinetwin app.** It will have its own notice and its own consent.
 
-Your analysis runs on your phone. Nothing is uploaded until you tick both boxes, tap **Turn on donating**, and then confirm the clip with **Donate this clip**.
+Your analysis runs on your phone. Nothing is uploaded until you tick both boxes, tap **Turn on donating**, and then confirm the clip with **Donate this clip**. Kinetwin first offers donating after your first result, on a card you can close; you can also start from Beta settings.
 
 **People I filmed on my phone.** Some people take part without the app: I film their lifts on my own phone. If that is you, I keep the videos and what my software makes from them: body pose and joint positions, a 3D model of your body, your height and measurements of your lifts. Before I use the videos further, I ask for your permission in writing by email (`kinetwin-participant-consent-2`). Until you reply, I keep the videos in my Google Drive and do nothing else with them. If you say no, I delete them within 30 days. If you say yes, sections 5 to 9 apply to you as they apply to Google Drive and the AI services. If I also ask you about Google Cloud and model training, I use a version of that email written for you (`kinetwin-participant-cloud-training-addon-2`). If you reply YES, sections 5 to 9 apply to you for those too. For you, "donated clips" means the videos I recorded of you, the 730 days for copies on Google Cloud and for training sets count from the day I recorded each video, and your YES to training (Box C2) replaces what my earlier consent email said about trained models. Sections 4.1 to 4.6 (the app, the donor ID, the Cloudflare storage and TestFlight) do not apply to you. I label your data with a participant code, not your name, before it goes anywhere. Before a video goes to an AI service, I remove its sound and location data, and I crop or blur anyone else who can be recognised in it.
 
@@ -87,7 +88,7 @@ When you tap **Donate this clip**, the app starts uploading these files right aw
 - **Donor ID and token.** On first launch the app makes a random donor ID and keeps a random secret token in your iPhone Keychain. Your files are stored under the donor ID. The server keeps only a SHA-256 hash of the token, so that only your phone can order deletion.
 - **A manifest for every donation** (`_manifest.json`). It lists the donor ID, a donation ID, when the donation was started and completed, the app version, the consent version and the time you consented, and, for each file, its name, size and checksum.
 - **Counters.** A daily counter of how many donations your donor ID started, and markers for donations that have been started but not finished.
-- **Consent record.** The app stores on your phone which consent you gave and when. The same version and time are sent with each donation, together with the time you confirmed that clip.
+- **Consent record.** The app stores on your phone which consent you gave, when, and where in the app you gave it (the card after your first result, or Beta settings). The same version and time are sent with each donation, together with the time you confirmed that clip.
 
 Your donor ID does not contain your name. But the video can show who you are, and the upload times, device model and iOS version could be matched against the TestFlight tester list (section 4.5). I commit never to do that matching on purpose, and to use donor IDs only to handle your files and requests. There are two exceptions: when you ask me to find your own files and cannot give me a donor ID (section 9), and when you agree in writing to Google Drive, an AI service, Google Cloud or model training (section 6), because I then need to know which files are yours. For that, each of these consent emails asks you to put your donor ID in your reply.
 
@@ -114,6 +115,10 @@ Contacts, advertising ID, precise location, and the sound of your video. The app
 ### 4.8 Other people in your video
 
 I do not look for other people in the clips and cannot tell who they are. Please film only yourself and keep other people out of the picture. If you appear in someone else's clip, write to me at kinetwin@proton.me and I will look for it and delete it. If a person who donated agreed in writing to the AI services (section 6), I crop or blur anyone else who can be recognised in a video before it goes to an AI service.
+
+### 4.9 Set history on your phone
+
+If you turn on **Save my sets on this iPhone**, Kinetwin keeps your height and the 3D twin video of each set (an animation made from your pose, not your camera footage) in its storage on your iPhone. It is off unless you turn it on. It is not in iCloud Backup and is never uploaded, so I can't see it. It stays until you delete a set, delete all of them, choose Delete my data or Leave the beta, or delete the app.
 
 ## 5. Why I use your data, and the legal basis
 
@@ -193,6 +198,7 @@ If a data breach puts your rights at high risk, I will tell you through the emai
 | Donations that were started but not finished | Removed automatically within about 25 hours. |
 | IP hash and request counter | About one day. |
 | Deletion and error log lines | Up to 7 days, at Cloudflare. |
+| Set history (only if you turn it on) | On your iPhone only, until you delete it; never on my servers. |
 | Copy on your phone | Until it is uploaded. Every copy that is waiting is removed when you stop donating, delete your data or leave the beta. The folder that holds them is excluded from iCloud Backup. If you choose Don't donate this clip, nothing is written for upload. The working copy Kinetwin makes for the analysis is deleted when you tap Start over and each time the app starts. Your original video in Photos or Files is never touched. |
 | My working copies of your files | Kept only on one encrypted volume on my computer that is excluded from cloud sync and backups. Before each use I compare it with the storage and delete anything that is no longer there. Everything is gone at 730 days at the latest. If you agreed in writing to Google Drive, the next row applies to your copies instead. |
 | Copies in my Google Drive, on my computer and in chats with the AI services, only if you agreed in writing | No fixed end date. I keep your data for as long as I develop Kinetwin's analysis and models with it, and delete it when you ask me to or when I stop developing Kinetwin, whichever comes first. Each year I check whether I still need it, and delete it if I do not. When I delete it, I also delete the chats that contain it and ask each company to delete what I sent. Your files in the Cloudflare storage still follow the first row. |
