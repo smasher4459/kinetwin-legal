@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Kinetwin beta participant information
-description: Participant information for the Kinetwin TestFlight beta (version beta-sheet-v5).
+description: Participant information for the Kinetwin TestFlight beta (version beta-sheet-v5.1).
 permalink: /beta/
 ---
 
 # Kinetwin beta: participant information
 
-Version `beta-sheet-v5` · 5 November 2026 · matches privacy notice `beta-notice-v5` of 5 November 2026 · consent versions `kinetwin-beta-consent-3` (the consent screen in the app), `kinetwin-participant-consent-2` (my consent email) and `kinetwin-beta-cloud-training-addon-2` (my cloud and training email) · for invited adults (18+)
+Version `beta-sheet-v5.1` · 16 November 2026 · matches privacy notice `beta-notice-v6.1` of 16 November 2026 · consent versions `kinetwin-beta-consent-3` (the consent screen in the app), `kinetwin-participant-consent-2` (my consent email) and `kinetwin-beta-cloud-training-addon-2` (my cloud and training email) · for invited adults (18+)
 
 Published at https://smasher4459.github.io/kinetwin-legal/beta/
 
@@ -99,7 +99,7 @@ Delete before you uninstall. If you delete the app without deleting your data, y
 
 ## The consent screen
 
-The donation screen is shown the first time you open Kinetwin, and again if you choose Turn on donating in Beta settings. It does not block the app: No thanks opens Kinetwin as normal. These are the exact texts, fixed under `kinetwin-beta-consent-3`. Any change to the wording, the files collected or the purposes means a new version and fresh consent. Google Drive and the AI services are not on this screen: I ask for them only by email (section 11).
+Kinetwin first offers donating after your first result, on a card you can close, and again if you choose Turn on donating in Beta settings. It does not block the app: No thanks opens Kinetwin as normal. These are the exact texts, fixed under `kinetwin-beta-consent-3`. Any change to the wording, the files collected or the purposes means a new version and fresh consent. Google Drive and the AI services are not on this screen: I ask for them only by email (section 11).
 
 ### Donation screen
 
