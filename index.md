@@ -1,16 +1,17 @@
 ---
-layout: default
-title: Kinetwin legal
-description: Privacy notice and participant information for the Kinetwin TestFlight beta.
+layout: null
 ---
-
-# Kinetwin
-
-Kinetwin is an iPhone app that turns a video of your lift into a 3D "twin", an animated skeleton built from your lift.
-
-These pages cover the private Kinetwin TestFlight beta only. The person responsible for your data is Simon Pastoor, an individual developer in the Netherlands.
-
-- [Privacy notice](privacy/) (version `beta-notice-v6.1`): what the beta collects, why, who receives it, how long it is kept and how to use your rights.
-- [Beta participant information](beta/) (version `beta-sheet-v5.1`): a shorter sheet to read before you install the build, with the exact texts of the consent screen.
-
-Questions or requests about your data: kinetwin@proton.me
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Moved to optipose.app/privacy/</title>
+  <meta http-equiv="refresh" content="0; url=https://optipose.app/privacy/">
+  <link rel="canonical" href="https://optipose.app/privacy/">
+  <meta name="robots" content="noindex">
+  <script>window.location.replace("https://optipose.app/privacy/");</script>
+</head>
+<body>
+  <p>Optipose (formerly Kinetwin) has moved its Privacy Policy to <a href="https://optipose.app/privacy/">https://optipose.app/privacy/</a>.</p>
+</body>
+</html>
